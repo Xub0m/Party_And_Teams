@@ -70,9 +70,9 @@ export function PARTY_EXECUTER(origin: CustomCommandOrigin, action?: string) {
 }
 
 // ===================== EMOTE EVENT
-world.afterEvents.playerEmote.subscribe((event) => {
-    PartyUI.openMainMenu(event.player);
-})
+// world.afterEvents.playerEmote.subscribe((event) => {
+//     PartyUI.openMainMenu(event.player);
+// })
 
 
 // =========================== HURT BEFORE EVENT

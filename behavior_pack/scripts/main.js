@@ -592,9 +592,6 @@ function PARTY_EXECUTER(origin, action) {
     status: CustomCommandStatus.Success
   };
 }
-world3.afterEvents.playerEmote.subscribe((event) => {
-  PartyUI.openMainMenu(event.player);
-});
 world3.beforeEvents.entityHurt.subscribe((event) => {
   const damageSource = event.damageSource;
   const hurtEntity = event.hurtEntity;
