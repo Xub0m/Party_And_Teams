@@ -1,0 +1,74 @@
+pack.name=Party_System
+pack.description=A Minecraft Bedrock add-on
+
+text.party.party_system.name=SISTEMA DE PARTY
+text.party.party_description.name=Você não está em nenhum grupo no momento.
+text.party.party_criar_party.name=§eCriar Nova Party\n§8Comece seu grupo
+text.party.party_parties_publicas.name=§qParties Públicas\n§8Buscar grupos abertos
+text.party.party_meus_convites.name=§cMeus Convites\n§8Ver convites recebidos
+
+text.party.confirm.name=Confirmar
+text.party.back.name=§cVoltar
+text.party.accept.name=§qAceitar
+text.party.decline.name=§cRecusar
+
+text.party.create_title.name=§eCriar sua Party§r
+text.party.create_field.name=Nome da Party:
+text.party.create_toggle.name=Tornar Privada? (Apenas Convite)
+
+text.party.public_title.name=§qParties Públicas§r
+text.party.public_empty.name=Nenhum grupo público ativo no momento.
+text.party.public_select.name=Selecione um grupo para entrar:
+text.party.public_button.name=§b%s§r\n§8Dono: %s (%s/%s)
+
+text.party.invites_title.name=§cSeus Convites§r
+text.party.invites_empty.name=Você não tem convites pendentes.
+text.party.invites_select.name=Escolha um convite:
+text.party.invites_button.name=§e%s§r\n§8Convidou você para uma Party
+text.party.manage_invite_title.name=§eGerenciar Convite§r
+text.party.manage_invite_body.name=O que deseja fazer com o convite de %s?
+
+text.party.dashboard_title.name=%s§r
+text.party.dashboard_body.name=§7Dono: §e%s\n§7Membros: §q(%s/%s)\n\n
+text.party.btn_invite.name=§q+ Convidar Jogador\n§8Chame mais amigos
+text.party.btn_leave.name=§cSair da Party
+text.party.btn_disband.name=§4Desfazer Party\n§8Deletar o grupo permanentemente
+
+text.party.tag_leader.name= §6[Líder]§r
+text.party.tag_member.name=
+text.party.member_online.name=\n§q Online
+text.party.member_offline.name=\n§c Offline
+
+text.party.manage_title.name=§0Gerenciar: %s
+text.party.manage_body.name=O que deseja fazer com este integrante do grupo?
+text.party.manage_promote.name=§6Promover a Líder
+text.party.manage_kick.name=§cExpulsar da Party
+
+text.party.invite_title.name=§qConvidar Jogador§r
+text.party.invite_dropdown.name=Selecione o jogador:
+
+text.party.msg.invalid_name=§cNome inválido para a party!
+text.party.msg.create_success=§qParty '%s' criada com sucesso!
+text.party.msg.create_error=§cErro ao criar party.
+text.party.msg.join_success=§qVocê entrou na party %s!
+text.party.msg.join_error=§cNão foi possível entrar na party (pode estar cheia ou privada).
+text.party.msg.invite_accepted=§qConvite aceito!
+text.party.msg.invite_accept_error=§cFalha ao aceitar o convite.
+text.party.msg.invite_declined=§cConvite recusado.
+text.party.msg.disbanded=§cVocê desfez a party.
+text.party.msg.left=§cVocê saiu da party.
+text.party.msg.promoted_sender=§qVocê promoveu %s para Líder da party!
+text.party.msg.promoted_target=§qVocê foi promovido a Líder da party!
+text.party.msg.kicked_sender=§cVocê removeu %s da party.
+text.party.msg.kicked_target=§cVocê foi expulso da party.
+text.party.msg.no_players=§cNão há jogadores online sem party para convidar.
+text.party.msg.invite_sent=§qConvite enviado para %s!
+text.party.msg.invite_received=§e%s te convidou para uma party!
+text.party.msg.invite_pending=§cEste jogador já possui um convite pendente.
+
+text.party.dashboard_menu_title.name=Menu da Party
+text.party.dashboard_info_btn.name=%s§r\n§qMembros: (%s/%s)
+text.party.btn_settings.name=Ajustes da Party
+text.party.settings_title.name=Ajustes da Party§r
+text.party.settings_dropdown.name=Alterar Ícone da Party:
+text.party.msg.icon_updated=§qÍcone da party atualizado com sucesso!

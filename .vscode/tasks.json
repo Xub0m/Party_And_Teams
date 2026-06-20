@@ -1,0 +1,292 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Debug",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "debug"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+            },
+            "detail": "Show current project information and debug details"
+        },
+        {
+            "label": "TypeScript Compile",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "typescript"],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+            },
+            "detail": "Compile TypeScript files to JavaScript"
+        },
+        {
+            "label": "Bundle",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "bundle"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+            },
+            "detail": "Create optimized bundle for production",
+            "hide": true
+        },
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "build"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+            },
+            "detail": "Compile TypeScript and create bundle",
+            "hide": true
+        },
+        {
+            "label": "Clean Local",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "clean-local"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+            },
+            "detail": "Remove compiled scripts from project"
+        },
+        {
+            "label": "Clean Collateral",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "clean-collateral"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+            },
+            "detail": "Remove project files from Minecraft directories"
+        },
+        {
+            "label": "Clean All",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "clean"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+            },
+            "detail": "Remove compiled and project files from Minecraft directories"
+        },
+        {
+            "label": "Copy Artifacts",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "copyArtifacts"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+            },
+            "detail": "Deploy project files to Minecraft directories"
+        },
+        {
+            "label": "Local Deploy",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "local-deploy"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+            },
+            "detail": "Deploy project to local Minecraft installation"
+        },
+        {
+            "label": "Watch",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "watch"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+            },
+            "detail": "Watch files and auto-deploy changes"
+        },
+        {
+            "label": "Bun Watch",
+            "type": "shell",
+            "command": "bun",
+            "args": ["build", "./tscripts/main.ts", "--outdir", "./behavior_pack/scripts", "--external", "@minecraft/server", "--external", "@minecraft/server-ui", "--external", "@minecraft/debug-utilities", "--external", "@minecraft/server-gametest", "--watch"],
+            // "args": ["build", "./tscripts/main.ts", "--outdir", "./behavior_pack/scripts", "--external", "@minecraft/*", "--watch"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true
+            },
+            "detail": "Watch files and auto-deploy changes using bun"
+        },
+        {
+            "label": "Lint",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "lint"],
+            "group": "test",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+            },
+            "detail": "Check code quality and formatting",
+            "hide": true
+        },
+        {
+            "label": "Create McAddon",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "mcaddon"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+            },
+            "detail": "Build and package project as .mcaddon file"
+        },
+        {
+            "label": "Analyze Project",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "analyze"],
+            "group": "test",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+            },
+            "detail": "Analyze project statistics and structure"
+        },
+        {
+            "label": "Backup Project",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "backup"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+            },
+            "detail": "Create compressed backup of current project"
+        },
+        {
+            "label": "Update Version",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "update-version"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+                "focus": true,
+            },
+            "detail": "Update project version in manifests"
+        },
+        {
+            "label": "Generate UUIDs",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "generate-uuids"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+            },
+            "detail": "Generate new UUIDs for project manifests"
+        },
+        {
+            "label": "Update Workspace",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "update-workspace"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+                "focus": true,
+            },
+            "detail": "Update workspace configurations from template"
+        },
+        {
+            "label": "List Projects",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "list-projects"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+            },
+            "detail": "List all available projects in the current workspace"
+        },
+        {
+            "label": "Open Minecraft Folder",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "open-mc-folder"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+                "focus": true
+            },
+            "detail": "Open Minecraft development folders"
+        },
+        {
+            "label": "List Development Projects",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "list-development-projects"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+            },
+            "detail": "List all projects deployed to Minecraft folders"
+        },
+        {
+            "label": "Open Workspace",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "open-workspace"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+            },
+            "detail": "Open workspace root in VS Code"
+        },
+        {
+            "label": "Create Symlink",
+            "type": "shell",
+            "command": "npm",
+            "args": ["run", "create-symlink"],
+            "group": "build",
+            "presentation": {
+                "showReuseMessage": false,
+                "clear": true,
+                "focus": true
+            },
+            "detail": "Create a windows Symlink at local Minecraft folder"
+        }
+    ]
+}

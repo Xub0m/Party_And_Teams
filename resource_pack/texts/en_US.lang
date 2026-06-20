@@ -1,0 +1,74 @@
+pack.name=Party_System
+pack.description=A Minecraft Bedrock add-on
+
+text.party.party_system.name=Party Menu
+text.party.party_description.name=You are not in any party at the moment.
+text.party.party_criar_party.name=§eCreate New Party\n§8Start your group
+text.party.party_parties_publicas.name=§qPublic Parties\n§8Look for open groups
+text.party.party_meus_convites.name=§cMy Invites\n§8View received invites
+
+text.party.confirm.name=Confirm
+text.party.back.name=§cBack
+text.party.accept.name=§qAccept
+text.party.decline.name=§cDecline
+
+text.party.create_title.name=§eCreate your Party§r
+text.party.create_field.name=Party Name:
+text.party.create_toggle.name=Make Private? (Invite Only)
+
+text.party.public_title.name=§qPublic Parties§r
+text.party.public_empty.name=No public parties active at the moment.
+text.party.public_select.name=Select a party to join:
+text.party.public_button.name=§b%s§r\n§8Owner: %s (%s/%s)
+
+text.party.invites_title.name=§cYour Invites§r
+text.party.invites_empty.name=You have no pending invites.
+text.party.invites_select.name=Choose an invite:
+text.party.invites_button.name=§e%s§r\n§8Invited you to a Party
+text.party.manage_invite_title.name=§eManage Invite§r
+text.party.manage_invite_body.name=What do you want to do with the invite from %s?
+
+text.party.dashboard_title.name=%s§r
+text.party.dashboard_body.name=§7Owner: §e%s\n§7Members: §q(%s/%s)\n\n
+text.party.btn_invite.name=§q+ Invite Player\n§8Call more friends
+text.party.btn_leave.name=§cLeave Party
+text.party.btn_disband.name=§4Disband Party\n§8Permanently delete the group
+
+text.party.tag_leader.name= §6[Leader]§r
+text.party.tag_member.name=
+text.party.member_online.name=\n§q Online
+text.party.member_offline.name=\n§c Offline
+
+text.party.manage_title.name=§0Manage: %s
+text.party.manage_body.name=What do you want to do with this group member?
+text.party.manage_promote.name=§6Promote to Leader
+text.party.manage_kick.name=§cKick from Party
+
+text.party.invite_title.name=§qInvite Player§r
+text.party.invite_dropdown.name=Select the player:
+
+text.party.msg.invalid_name=§cInvalid party name!
+text.party.msg.create_success=§qParty '%s' created successfully!
+text.party.msg.create_error=§cError creating party.
+text.party.msg.join_success=§qYou joined %s's party!
+text.party.msg.join_error=§cCould not join the party (it might be full or private).
+text.party.msg.invite_accepted=§qInvite accepted!
+text.party.msg.invite_accept_error=§cFailed to accept the invite.
+text.party.msg.invite_declined=§cInvite declined.
+text.party.msg.disbanded=§cYou disbanded the party.
+text.party.msg.left=§cYou left the party.
+text.party.msg.promoted_sender=§qYou promoted %s to Party Leader!
+text.party.msg.promoted_target=§qYou have been promoted to Party Leader!
+text.party.msg.kicked_sender=§cYou removed %s from the party.
+text.party.msg.kicked_target=§cYou were kicked from the party.
+text.party.msg.no_players=§cThere are no online players without a party to invite.
+text.party.msg.invite_sent=§qInvite sent to %s!
+text.party.msg.invite_received=§e%s invited you to a party!
+text.party.msg.invite_pending=§cThis player already has a pending invite.
+
+text.party.dashboard_menu_title.name=Party Menu
+text.party.dashboard_info_btn.name=%s§r\n§qMembers: (%s/%s)
+text.party.btn_settings.name=Party Settings
+text.party.settings_title.name=Party Settings§r
+text.party.settings_dropdown.name=Change Party Icon:
+text.party.msg.icon_updated=§qParty icon updated successfully!
